@@ -1,0 +1,114 @@
+*{
+    transition: all 250ms ease;
+}
+#but{
+   
+}
+html{
+    scroll-behavior:smooth;
+}
+.box{
+    
+    box-shadow: rgb(60, 255, 0);
+    padding: 10px;
+    
+}
+input{
+   border-color: blue;
+    padding: 10px;
+}
+a{
+    
+    text-decoration: none;
+    color: black;
+}
+.m{
+    border: 2px solid red;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+    
+    
+    
+    
+}
+.mb{
+    border: 2px solid red;
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+}
+
+#n{
+    border: 2px dotted ;
+}
+form{
+    background-color:white;
+    padding:10px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+}
+#l{
+    font-size: large;
+}
+body{
+    font-family:courier;
+}
+button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(143, 188, 186) ;
+    border-color: black;
+    font-size: large;
+    font-family: courier;
+    border-radius: 10px;
+    
+}
+
+button:hover{
+    background-color: rgba(255, 0, 0, 0.1);
+
+
+}
+.bt{
+    width: 20px;
+}
+#gt{
+    height: 80px;
+    
+    
+}
+.git{
+    display: flex;
+    justify-content: center;
+}
+textarea{
+    
+    height: 100px;
+    width: 190px;
+    resize:none;
+}
+.dark-theme *{
+    background-color: black;
+    color: white;
+}
+button{
+    
+    animation: b 600ms infinite alternate-reverse ;
+}
+@keyframes b {
+    0% {transform: translateY(0);}
+    100% { transform: translateY(10px);}
+    
+}
